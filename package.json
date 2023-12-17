@@ -1,0 +1,43 @@
+{
+  "name": "huawei-be",
+  "version": "1.0.0",
+  "description": "be for test in huawei",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest -c ./jest.config.cjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tiorzfk/hwi_be.git"
+  },
+  "keywords": [
+    "test",
+    "be"
+  ],
+  "author": "Tioreza Febrian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tiorzfk/hwi_be/issues"
+  },
+  "homepage": "https://github.com/Tiorzfk/hwi_be#readme",
+  "dependencies": {
+    "@koa/bodyparser": "^5.0.0",
+    "@koa/cors": "^5.0.0",
+    "dotenv": "^16.3.1",
+    "jest": "^29.7.0",
+    "jest-puppeteer": "^9.0.2",
+    "koa": "^2.14.2",
+    "koa-ejs": "^4.3.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^12.0.1",
+    "koa-session": "^6.4.0",
+    "koa-static": "^5.0.0",
+    "lodash": "^4.17.21",
+    "puppeteer": "^21.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "type": "module"
+}
