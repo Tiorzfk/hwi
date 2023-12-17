@@ -1,0 +1,16 @@
+### get forms
+GET http://localhost:8000/api/forms
+Accept: application/json
+Content-Type: application/json
+
+### store forms
+POST http://localhost:8000/api/forms
+Accept: application/json
+Content-Type: application/json
+
+{
+    "email": "asd@gmail.com",
+    "name": "asd",
+    "no_hp": "asd",
+    "address": "asd"
+}
