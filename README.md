@@ -1,3 +1,8 @@
+# Stack
+1. Nodejs (Koa.js)
+2. Jquery
+3. Html Css
+
 # Running The Application
 
 1. copy .env.example and rename to .env
