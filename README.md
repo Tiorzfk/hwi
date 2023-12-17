@@ -1,5 +1,5 @@
-# Stack
-1. Nodejs (Koa.js)
+## Stack
+1. Node.js (Koa.js)
 2. Jquery
 3. Html Css
 
@@ -17,7 +17,7 @@
 ## Backend
 1. [GET] http://localhost:8000/api/forms -> get all data forms
 2. [POST] http://localhost:8000/api/forms -> store data form
-3. [POST] http://localhost:8000/api/clear -> clear all data form
+3. [POST] http://localhost:8000/api/forms/clear -> clear all data form
 
 ## Run Testing
 - npm run test
